@@ -1,0 +1,209 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* navbar style section */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: gray;
+  height: 23vh;
+}
+.navbar-brand img {
+  width: 150px;
+  height: 130px;
+}
+.navbar-nav li a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  float: right;
+}
+.navbar-nav li a:hover{
+    transform: scale(1.1);
+    color: white;
+    text-decoration: underline;
+}
+#addingCart{
+  display: inline-block;
+}
+/* end of navbar style section */
+
+/* about banner section  */
+#about-banner{
+  height: 70vh;
+  background-image: url("group.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 10% 0;
+  text-align: center;
+}
+#about-banner h1{
+  font-size: 70px;
+  color: black;
+  font-weight: bold;
+}
+#about-banner p{
+  font-size: 25px;
+  color: black;
+}
+/* end about banner section  */
+
+
+/* banner style  */
+#banner{
+  padding: 5% 0;
+}
+/* end of banner style  */
+
+/* mission-vission style section  */
+#mission-vission{
+  height: 25vh;
+  background-color: lightgray;
+  font-size: 20px;
+  padding: 3% 0;
+}
+#mission-vission h2{
+  padding-bottom: 7px;
+}
+/* end of mission-vission style section  */
+
+/* team section  */
+#team-group{
+  padding: 2% 0;
+}
+#team-group .title{
+  padding: 4% 0;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#team-group .img-fluid{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10px;
+  box-shadow: 0px 0px 7px black;
+}
+#team-group .team-card{
+  box-shadow: 0px 0px 5px black;
+  margin: 15px;
+  text-align: center;
+}
+/* end of team section */
+
+
+
+/* footer section  */
+
+#footer-box {
+  padding-top: 5%;
+  background-color: gray;
+  text-align: center;
+}
+#footer-box p{
+  color: black;
+  font-size: 20px;
+  padding: 25px;
+}
+#footer-box ul {
+  list-style-type: none;
+}
+#footer-box h3{
+  color: black;
+}
+#footer-box li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+ 
+}
+#footer-box li a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+}
+#footer-box .link{
+  padding: 15px;
+}
+#footer-box .fa-brands {
+  font-size: 25px;
+  padding: 20px;
+  transform: scale(1.1);
+}
+#email{
+  color: rgb(8, 107, 8);
+}
+#phone{
+  color: blue;
+}
+#location{
+  color: #ce2828;
+}
+#facebook{
+  color: blue;
+}
+#instagram{
+color: #bc2a8d;
+}
+#whatsapp{
+  color: #25d366;
+}
+#telegram{
+  color: #0088cc;
+}
+/* end style of footer  */
+
+/* (portrait phones, less than 576px) */
+ @media(max-width: 480px) { 
+  #addingCart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #nav-bar{
+  height: auto;
+  }
+  #about-banner{
+  height: 300px;
+  }
+#mission-vission{
+  text-align: center;
+  height: auto;
+}
+h1, h2, h3, h4{
+ font-size: 20px;
+}
+section.text-col{
+  font-size: 16px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+#image img{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+}
+  #footer-box{
+  width: 100%;
+  padding-top: 10px;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  #footer-box ul, p, li, a{
+  text-align: center;
+  }
+.map{
+  width: 100%;
+  padding-left: 10px;
+}
+}
+
+

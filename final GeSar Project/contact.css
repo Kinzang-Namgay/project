@@ -1,0 +1,278 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* navbar style section */
+#nav-bar{
+   height: 23vh;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color:gray;
+      width: 100%;
+}
+.navbar-brand img {
+  width: 150px;
+  height: 130px;
+}
+ .navbar-nav li a{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+} 
+.navbar-nav li a:hover {
+  transform: scale(1.1);
+  color: white;
+  text-decoration: underline;
+}
+#addingCart{
+  display: inline-block;
+}
+/* end of navbar style section */
+
+/* contact details style */
+#contact-details{
+    background-color: white;
+    margin-top:50px;
+}
+
+#contact-details a {
+    color: #212D45;
+    font-size: 20px;
+    bottom: 30px;
+    text-decoration: none;
+    margin: auto;
+}
+
+#contact-details a:hover {
+    color: grey;
+    font-size: 20px;
+    bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: gold;
+    width: 150px;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+  font-size: 23px;
+  text-align: center;
+  color: #3928B9;
+}
+
+.fa-location-dot{
+    color: navy;
+}
+
+.fa-envelope{
+    color: navy;
+}
+
+.fa-phone{
+    color: navy;
+}
+
+#locate{
+    display: block;
+     height: 200px;
+     width: 200px;
+}
+
+#mail{
+  display: block;
+  height: 200px;
+  width: 200px;
+    
+}
+
+#phone{
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+i {
+  font-size: 20px;
+}
+/* end contact details style */
+
+
+/* contact form details style  */
+#contact-form{
+     background-color: white;
+}
+
+#contact-form h3{
+padding: 20px;
+font-size: 40px;
+color: rgb(35, 27, 27);
+}
+
+input {
+    width: 60%;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    margin:0px 0px 10px 20px;
+}
+textarea {
+    width: 80%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin:0px 0px 0px 20px;
+   }
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin:10px 0px 5px 20px;
+    }
+
+    div.row form{
+        border: 1px solid gray;
+        margin: 1px;
+        background-color: white;
+    }
+
+    div.row img{
+        height: 100%;
+    }
+
+#contact-form button{
+    background-color: #f8b526;
+    width: 20%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin:10px 0px 10px 20px;
+    font-size: 18px;
+}
+
+#contact-form button:hover{
+    color: black;
+    background-color: burlywood;
+    transform: scale(1.04);
+    transition: 2s;
+}
+/* end of contact form details style  */
+
+
+/* start style of footer  */
+
+#footer-box {
+  padding-top: 5%;
+  background-color: gray;
+  color: black;
+  padding-inline: 0;
+  text-align: center;
+ 
+}
+#footer-box p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+#footer-box ul {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 20px;
+   padding: 10px 10px;
+}
+#footer-box li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  transition: 1s ease-in-out;
+}
+#footer-box .link{
+  padding: 15px;
+}
+.fa-brands {
+  transform: scale(1.1);
+  padding: 20px;
+}
+#footer-box li a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+#footer-box .fa-brands {
+  font-size: 25px;
+}
+#email{
+  color: rgb(8, 107, 8);
+}
+#phone{
+   color: blue;
+}
+#location{
+  color: #ce2828;
+}
+#facebook{
+  color: blue;
+}
+#instagram{
+color: #bc2a8d;
+}
+#whatsapp{
+  color: #25d366;
+}
+#telegram{
+  color: #0088cc;
+}
+
+/* end style of footer  */
+/* end of style of footer  */
+
+@media screen and (max-width: 480px){
+  #addingCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav-bar{
+    height: auto;
+  }
+  #contact-banner{
+    text-align: center;
+  }
+#contact-details .container{
+ padding-left: 20%;
+}
+#contact-form {
+  text-align: center;
+}
+
+  #footer-box{
+  width: 100%;
+  padding-top: 10px;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.map{
+  width: 100%;
+}
+}
+
+
